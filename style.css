@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    overflow: scroll;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    margin: 15px auto;
+}
+
+#main {
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: auto 40px;
+    left: 60px;
+}
+
+#config-content {
+    width: 225px;
+    height: 560px;
+    float: right;
+    white-space: normal;
+    margin: auto 20px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 7px 0px;
+}

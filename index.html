@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <script src="jquery-3.4.1.js"></script>
         <script src="script.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css"> 
-        <title>Custom Bar Chart</title>
+        <title>Custom Bar Chart Builder</title>
     </head>
     <body>
-        
+        <header>
+            <h3 id="main">Custom Bar Chart Builder</h3>
+        </header>
+        <div id="backdrop">
+            <div id='chart-area'>
+            </div>
+        </div>
+        <section id="config-content">
+            <div id="options">
+                <div id=title-config>
+                    <h5>Chart Title</h5>
+                </div>
+                <div id="y-axis">
+                    <h5>Vertical Axis</h5>
+                </div>
+                <div id='x-axis'>
+                    <h5>Horizontal Axis</h5>
+                </div>
+            </div>
+            <div id="render-buttons">
+                <button id="submit">Submit</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
     </body>
 </html>
